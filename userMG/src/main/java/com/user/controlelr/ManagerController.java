@@ -54,7 +54,7 @@ public class ManagerController {
     public String accountList(Model model, @RequestParam(defaultValue = "1") int pageNumber, @RequestParam(defaultValue = "6") int pageSize) {
         PageInfo<Account> pageInfo = accService.findPage(pageNumber, pageSize);
         model.addAttribute("pageInfo", pageInfo);
-        return "/manager/accountList";
+        return "manager/accountList";
     }
 
     /**
@@ -68,7 +68,7 @@ public class ManagerController {
     public String permissionList(Model model, @RequestParam(defaultValue = "1") int pageNumber, @RequestParam(defaultValue = "6") int pageSize) {
         PageInfo<Permission> pageInfo = perService.findPage(pageNumber, pageSize);
         model.addAttribute("pageInfo", pageInfo);
-        return "/manager/permissionList";
+        return "manager/permissionList";
     }
 
     /**
@@ -82,7 +82,7 @@ public class ManagerController {
 
         Permission permission = perService.findById(id);
         model.addAttribute("permission",permission);
-        return "/manager/permissionModify";
+        return "manager/permissionModify";
     }
 
     /**
@@ -91,7 +91,7 @@ public class ManagerController {
      */
     @RequestMapping("permissionAdd")
     public String permissionAdd() {
-        return "/manager/permissionModify";
+        return "manager/permissionModify";
     }
 
 
@@ -106,7 +106,7 @@ public class ManagerController {
     public String roleList(Model model, @RequestParam(defaultValue = "1") int pageNumber, @RequestParam(defaultValue = "6") int pageSize) {
         PageInfo<Role> pageInfo = roService.findPage(pageNumber, pageSize);
         model.addAttribute("pageInfo", pageInfo);
-        return "/manager/roleList";
+        return "manager/roleList";
     }
 
     /**
@@ -123,7 +123,7 @@ public class ManagerController {
         List<Permission> permissionList = perService.findAll();
         model.addAttribute("role",role);
         model.addAttribute("permissionList",permissionList);
-        return "/manager/roleModify";
+        return "manager/roleModify";
     }
 
     /**
@@ -132,7 +132,7 @@ public class ManagerController {
      */
     @RequestMapping("roleAdd")
     public String roleAdd(){
-        return "/manager/roleModify";
+        return "manager/roleModify";
     }
 
 

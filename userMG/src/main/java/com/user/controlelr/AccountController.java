@@ -43,12 +43,12 @@ public class AccountController {
     @RequestMapping("login")
     public String login(Model model) {
         model.addAttribute("config",config);
-        return "/account/login";
+        return "account/login";
     }
 
     @RequestMapping("profile")
     public String profile () {
-        return "/account/profile";
+        return "account/profile";
     }
 
 
@@ -83,7 +83,7 @@ public class AccountController {
     public String logOut(HttpServletRequest request, Model model){
        request.getSession().removeAttribute("account");
         model.addAttribute("config",config);
-        return "/account/login";
+        return "account/login";
 
     }
 
@@ -99,7 +99,7 @@ public class AccountController {
 
         model.addAttribute("pageInfo",pageInfo);
 
-       return "/account/list";
+       return "account/list";
 
     }
 
@@ -139,7 +139,7 @@ public class AccountController {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-        return "/account/profile";
+        return "account/profile";
     }
 
 }
