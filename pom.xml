@@ -1,19 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- 该xml中包含了父项目需要定义的信息 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <!-- 父项目中定义好所有的版本信息 -->
     <groupId>com.huanjava.taobaoMG</groupId>
     <artifactId>huanjava-taobaoMG</artifactId>
     <version>1.0.0</version>
+
+    <!-- 打包方式定义为pom -->
     <packaging>pom</packaging>
 
+    <!-- spirngboot的依赖加入到父项目中 -->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.3.2.RELEASE</version>
     </parent>
+
+    <properties>
+        <!-- 文件拷贝时的编码 -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+        <!-- 编译时的编码 -->
+        <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
+        <!-- 定义springcloud的版本 -->
+        <!-- <spring-cloud.version>Greenwich.SR2</spring-cloud.version> -->
+        <!-- 扩展包的版本 -->
+        <commons-lang3.version>3.3.2</commons-lang3.version>
+
+    </properties>
+
+    <!-- 定义父项目中包含哪些子系统 -->
+    <modules>
+        <module>taobaoMG-service-api</module>
+        <module>taobaoMG-service</module>
+    </modules>
+
+    <!-- 全局依赖 -->
+    <dependencies>
+        <!-- springboot启动类依赖 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+
+        <!-- 编写好属性文件并添加注解之后，编译一下项目能在配置文件中编写的时候弹出提示 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+        <!-- springboot的健康监控功能 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        <!-- 增强版swagger -->
+        <dependency>
+            <groupId>com.github.xiaoymin</groupId>
+            <artifactId>knife4j-spring-boot-starter</artifactId>
+            <version>2.0.4</version>
+        </dependency>
+        <!-- lombok插件 -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <!-- commons-lang3 插件 -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${commons-lang3.version}</version>
+        </dependency>
+    </dependencies>
+    <!--
+    使用dependencyManagement可以统一管理项目的版本号，
+    确保应用的哥哥项目的依赖和版本一致，不用每个项目都弄一个版本号，不利于管理，
+    如果某个子项目需要另外一个特殊的版本号时，只需要在自己的模块dependencies中声明一个版本号即可，
+    子类就会使用子类声明的版本号，不继承父类的版本号。
+    dependencyManagement里只声明依赖，不指定具体版本。
+    -->
+
+    <!-- springboot maven plugin能够将springboot应用打包为可执行的jar或者war文件，然后以通常的方式运行springboot应用 -->
     <build>
         <plugins>
             <plugin>
@@ -22,6 +96,5 @@
             </plugin>
         </plugins>
     </build>
-
 
 </project>
