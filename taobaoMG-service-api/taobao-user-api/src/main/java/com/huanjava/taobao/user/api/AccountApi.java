@@ -2,6 +2,7 @@ package com.huanjava.taobao.user.api;
 
 import com.huanjava.taobao.user.entity.Result;
 import io.swagger.annotations.Api;
+import org.springframework.http.ResponseEntity;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -18,6 +19,7 @@ import javax.servlet.http.HttpServletRequest;
  * @author:wells
  * @since:2020/9/10
  */
+@Api(value = "用户账号相关的controller",tags = {"登录页面"})
 @RequestMapping("/account/")
 public interface AccountApi {
 
@@ -82,6 +84,9 @@ public interface AccountApi {
      */
     @RequestMapping("fileUploadController")
     String fileUpload(MultipartFile filename, String password, HttpServletRequest request);
+
+    @RequestMapping("fileDownLoadController")
+    ResponseEntity<byte[]> fileDownLoad();
 
 }
 

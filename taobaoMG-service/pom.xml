@@ -12,6 +12,14 @@
     <groupId>com.huanjava.taobaoMG</groupId>
     <artifactId>taobaoMG-service</artifactId>
     <packaging>pom</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.github.tobato</groupId>
+            <artifactId>fastdfs-client</artifactId>
+            <version>1.27.2</version>
+        </dependency>
+    </dependencies>
     <modules>
         <module>taobao-user</module>
     </modules>

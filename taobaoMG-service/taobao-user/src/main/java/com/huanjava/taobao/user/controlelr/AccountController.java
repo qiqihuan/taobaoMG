@@ -1,15 +1,23 @@
 package com.huanjava.taobao.user.controlelr;
 
 import com.github.pagehelper.PageInfo;
+import com.github.tobato.fastdfs.domain.fdfs.MetaData;
+import com.github.tobato.fastdfs.domain.fdfs.StorePath;
+import com.github.tobato.fastdfs.domain.proto.storage.DownloadByteArray;
+import com.github.tobato.fastdfs.service.FastFileStorageClient;
 import com.huanjava.taobao.user.api.AccountApi;
 import com.huanjava.taobao.user.entity.Account;
 import com.huanjava.taobao.user.entity.Config;
 import com.huanjava.taobao.user.entity.Result;
 import com.huanjava.taobao.user.service.impl.AccountService;
+import org.apache.commons.io.FilenameUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
@@ -17,6 +25,9 @@ import org.springframework.web.multipart.MultipartFile;
 import javax.servlet.http.HttpServletRequest;
 import java.io.File;
 import java.io.IOException;
+import java.time.LocalDate;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * <p>
@@ -35,6 +46,9 @@ public class AccountController implements AccountApi {
 
     @Autowired
     Config config ;
+
+    @Autowired
+    FastFileStorageClient fc;
 
     /**
      * 登录链接
@@ -116,6 +130,7 @@ public class AccountController implements AccountApi {
     }
 
     /**
+     * 使用fdfs-client客户端上传文件到fdfs
      * 上传文件的controller
      * @param filename 文件名
      * @param password 用户密码
@@ -124,22 +139,35 @@ public class AccountController implements AccountApi {
     @Override
     public String fileUpload (MultipartFile filename, String password, HttpServletRequest request) {
         Account account = (Account) request.getSession().getAttribute("account");
-        try {
 
-            filename.transferTo(new File(config.getUploadPath()+"/"+filename.getOriginalFilename()));
+        Set<MetaData> metaDataSet = new HashSet<MetaData>();
+        metaDataSet.add(new MetaData("Author","qiqh"));
+        metaDataSet.add(new MetaData("CreateDate", LocalDate.now().toString()));
+
+        try {
+            StorePath uploadFile = fc.uploadFile(filename.getInputStream(), filename.getSize(), FilenameUtils.getExtension(filename.getOriginalFilename()), metaDataSet);
 
             account.setPassword(password);
-            account.setLocation(filename.getOriginalFilename());
+            account.setLocation(uploadFile.getPath());
 
             accService.update(account);
         } catch (IllegalStateException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
         } catch (IOException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
         return "/account/profile";
+    }
+
+    @Override
+    public ResponseEntity<byte[]> fileDownLoad(){
+        DownloadByteArray cb = new DownloadByteArray();
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.APPLICATION_OCTET_STREAM);
+        headers.setContentDispositionFormData("attachment","王老二");
+        byte[] bs = fc.downloadFile("group1", "M00/00/00/wKhVC19t53qAbJYAAAFgVnVbLjw888.png",cb);
+        return new ResponseEntity<>(bs,headers, HttpStatus.OK);
     }
 
 }
