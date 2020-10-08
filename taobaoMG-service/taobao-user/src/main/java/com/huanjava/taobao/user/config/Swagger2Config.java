@@ -1,3 +1,4 @@
+/*
 package com.huanjava.taobao.user.config;
 
 import com.fasterxml.classmate.TypeResolver;
@@ -16,33 +17,40 @@ import java.util.Arrays;
 import java.util.Collections;
 
 
+*/
 /**
  * @author: wells
  * @date: 2020/9/25
  * @version: 1.0
  * @Description: Swagger2配置类
- */
+ *//*
+
 @Configuration
 @EnableSwagger2
 @EnableSwaggerBootstrapUi
 public class Swagger2Config {
-    /**
+    */
+/**
      * 是否启用在线接口文档
-     */
+     *//*
+
     @Value("${properties.swagger.show:true}")
     private boolean swaggerShow;
 
-    /**
+    */
+/**
      * 这个东西是项目的根路径，也就是“/oauth/token”前面的那一串
      * 这个东西在配置文件里写的，大家也可以直接写死在配置文件中
-     */
+     *//*
+
     @Value("${oauth-service-url}")
     private String AUTH_SERVER;
 
     @Autowired
     private TypeResolver typeResolver;
 
-   /* @Bean
+   */
+/* @Bean
     public Docket createRestApi() {
         //添加head参数-access_token
         ParameterBuilder tokenPar = new ParameterBuilder();
@@ -75,11 +83,14 @@ public class Swagger2Config {
                                 typeResolver.resolve(ResponseEntity.class, WildcardType.class)),
                                 typeResolver.resolve(WildcardType.class)));
     }
-*/
-    /**
+*//*
+
+    */
+/**
      * 基本信息
      * @return
-     */
+     *//*
+
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 .title("基础系统管理 APIs")
@@ -90,10 +101,12 @@ public class Swagger2Config {
                 .build();
     }
 
-    /**
+    */
+/**
      * 这个类决定了你使用哪种认证方式，我这里使用密码模式
      * 其他方式自己摸索一下，完全莫问题啊
-     */
+     *//*
+
     private SecurityScheme securityScheme() {
         GrantType grantType = new ClientCredentialsGrant(AUTH_SERVER + "/oauth/token");
         return new OAuthBuilder()
@@ -103,9 +116,11 @@ public class Swagger2Config {
                 .build();
     }
 
-    /**
+    */
+/**
      * 这里设置 swagger2 认证的安全上下文
-     */
+     *//*
+
     private SecurityContext securityContext() {
         return SecurityContext.builder()
                 .securityReferences(Collections.singletonList(new SecurityReference("swagger", scopes())))
@@ -113,9 +128,11 @@ public class Swagger2Config {
                 .build();
     }
 
-    /**
+    */
+/**
      * 这里是写允许认证的scope
-     */
+     *//*
+
     private AuthorizationScope[] scopes() {
         return new AuthorizationScope[]{
                 new AuthorizationScope("all", "All scope is trusted!")
@@ -154,3 +171,4 @@ public class Swagger2Config {
                 .build();
     }
 }
+*/
