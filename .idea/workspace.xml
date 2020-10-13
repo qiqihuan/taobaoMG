@@ -1,0 +1,1088 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="553fce99-7d17-4145-8e13-fae05b4eda17" name="Default Changelist" comment="taobaoMG项目结构更换">
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/target/classes/com/huanjava/taobao/user/api/AccountApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/target/classes/com/huanjava/taobao/user/api/MainApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/target/classes/com/huanjava/taobao/user/api/ManagerApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/target/classes/com/huanjava/taobao/user/api/ManagerRestApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/target/classes/com/huanjava/taobao/user/api/RoleRestApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/target/classes/com/huanjava/taobao/user/entity/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/target/classes/com/huanjava/taobao/user/entity/Code.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/target/classes/com/huanjava/taobao/user/entity/Config.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/target/classes/com/huanjava/taobao/user/entity/Menu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/target/classes/com/huanjava/taobao/user/entity/Permission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/target/classes/com/huanjava/taobao/user/entity/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/target/classes/com/huanjava/taobao/user/entity/ResultCodeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/target/classes/com/huanjava/taobao/user/entity/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/com/huanjava/taobao/user/Filter/AccountFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/com/huanjava/taobao/user/UserApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/com/huanjava/taobao/user/controlelr/AccountController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/com/huanjava/taobao/user/controlelr/MainController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/com/huanjava/taobao/user/controlelr/ManagerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/com/huanjava/taobao/user/controlelr/ManagerRestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/com/huanjava/taobao/user/controlelr/RoleRestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/com/huanjava/taobao/user/entity/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/com/huanjava/taobao/user/entity/Code.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/com/huanjava/taobao/user/entity/Config.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/com/huanjava/taobao/user/entity/Menu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/com/huanjava/taobao/user/entity/Permission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/com/huanjava/taobao/user/entity/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/com/huanjava/taobao/user/entity/ResultCodeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/com/huanjava/taobao/user/entity/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/com/huanjava/taobao/user/mapper/AccountExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/com/huanjava/taobao/user/mapper/AccountExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/com/huanjava/taobao/user/mapper/AccountExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/com/huanjava/taobao/user/mapper/AccountExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/com/huanjava/taobao/user/mapper/AccountMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/com/huanjava/taobao/user/mapper/MenuExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/com/huanjava/taobao/user/mapper/MenuExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/com/huanjava/taobao/user/mapper/MenuExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/com/huanjava/taobao/user/mapper/MenuExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/com/huanjava/taobao/user/mapper/MenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/com/huanjava/taobao/user/mapper/MyBatisBaseDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/com/huanjava/taobao/user/mapper/PermissionExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/com/huanjava/taobao/user/mapper/PermissionExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/com/huanjava/taobao/user/mapper/PermissionExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/com/huanjava/taobao/user/mapper/PermissionExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/com/huanjava/taobao/user/mapper/PermissionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/com/huanjava/taobao/user/mapper/RoleExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/com/huanjava/taobao/user/mapper/RoleExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/com/huanjava/taobao/user/mapper/RoleExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/com/huanjava/taobao/user/mapper/RoleExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/com/huanjava/taobao/user/mapper/RoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/com/huanjava/taobao/user/service/impl/AccountService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/com/huanjava/taobao/user/service/impl/PermissionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/com/huanjava/taobao/user/service/impl/RoleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taobaoMG-service/taobao-user/src/main/java/com/huanjava/taobao/user/Filter/AccountFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/src/main/java/com/huanjava/taobao/user/Filter/AccountFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taobaoMG-service/taobao-user/src/main/java/com/huanjava/taobao/user/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/src/main/java/com/huanjava/taobao/user/UserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/application-prod.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/application-test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/mybatis/mapper/AccountMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/mybatis/mapper/AccountMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/mybatis/mapper/MenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/mybatis/mapper/MenuMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/mybatis/mapper/PermissionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/mybatis/mapper/PermissionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/mybatis/mapper/RoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/mybatis/mapper/RoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/rebel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/rebel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/bootstrap-select.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/bootstrap-select.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/bootstrap-select.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/bootstrap-select.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/bootstrap-select.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/bootstrap-select.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/common/animate.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/common/animate.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/common/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/common/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/common/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/common/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/common/login.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/common/login.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/common/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/common/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/common/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/common/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/mainpage/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/mainpage/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/all.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/flat/_all.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/flat/_all.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/flat/aero.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/flat/aero.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/flat/aero.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/flat/aero.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/flat/aero@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/flat/aero@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/flat/blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/flat/blue.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/flat/blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/flat/blue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/flat/blue@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/flat/blue@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/flat/flat.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/flat/flat.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/flat/flat.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/flat/flat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/flat/flat@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/flat/flat@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/flat/green.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/flat/green.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/flat/green.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/flat/green.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/flat/green@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/flat/green@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/flat/grey.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/flat/grey.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/flat/grey.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/flat/grey.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/flat/grey@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/flat/grey@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/flat/orange.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/flat/orange.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/flat/orange.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/flat/orange.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/flat/orange@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/flat/orange@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/flat/pink.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/flat/pink.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/flat/pink.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/flat/pink.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/flat/pink@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/flat/pink@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/flat/purple.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/flat/purple.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/flat/purple.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/flat/purple.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/flat/purple@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/flat/purple@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/flat/red.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/flat/red.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/flat/red.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/flat/red.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/flat/red@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/flat/red@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/flat/yellow.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/flat/yellow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/flat/yellow.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/flat/yellow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/flat/yellow@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/flat/yellow@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/futurico/futurico.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/futurico/futurico.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/futurico/futurico.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/futurico/futurico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/futurico/futurico@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/futurico/futurico@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/line/_all.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/line/_all.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/line/aero.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/line/aero.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/line/blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/line/blue.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/line/green.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/line/green.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/line/grey.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/line/grey.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/line/line.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/line/line.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/line/line.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/line/line.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/line/line@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/line/line@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/line/orange.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/line/orange.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/line/pink.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/line/pink.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/line/purple.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/line/purple.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/line/red.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/line/red.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/line/yellow.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/line/yellow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/minimal/_all.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/minimal/_all.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/minimal/aero.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/minimal/aero.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/minimal/aero.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/minimal/aero.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/minimal/aero@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/minimal/aero@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/minimal/blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/minimal/blue.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/minimal/blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/minimal/blue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/minimal/blue@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/minimal/blue@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/minimal/green.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/minimal/green.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/minimal/green.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/minimal/green.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/minimal/green@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/minimal/green@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/minimal/grey.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/minimal/grey.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/minimal/grey.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/minimal/grey.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/minimal/grey@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/minimal/grey@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/minimal/minimal.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/minimal/minimal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/minimal/minimal.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/minimal/minimal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/minimal/minimal@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/minimal/minimal@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/minimal/orange.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/minimal/orange.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/minimal/orange.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/minimal/orange.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/minimal/orange@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/minimal/orange@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/minimal/pink.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/minimal/pink.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/minimal/pink.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/minimal/pink.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/minimal/pink@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/minimal/pink@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/minimal/purple.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/minimal/purple.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/minimal/purple.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/minimal/purple.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/minimal/purple@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/minimal/purple@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/minimal/red.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/minimal/red.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/minimal/red.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/minimal/red.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/minimal/red@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/minimal/red@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/minimal/yellow.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/minimal/yellow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/minimal/yellow.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/minimal/yellow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/minimal/yellow@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/minimal/yellow@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/polaris/polaris.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/polaris/polaris.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/polaris/polaris.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/polaris/polaris.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/polaris/polaris@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/polaris/polaris@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/square/_all.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/square/_all.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/square/aero.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/square/aero.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/square/aero.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/square/aero.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/square/aero@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/square/aero@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/square/blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/square/blue.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/square/blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/square/blue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/square/blue@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/square/blue@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/square/green.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/square/green.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/square/green.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/square/green.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/square/green@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/square/green@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/square/grey.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/square/grey.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/square/grey.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/square/grey.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/square/grey@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/square/grey@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/square/orange.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/square/orange.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/square/orange.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/square/orange.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/square/orange@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/square/orange@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/square/pink.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/square/pink.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/square/pink.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/square/pink.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/square/pink@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/square/pink@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/square/purple.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/square/purple.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/square/purple.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/square/purple.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/square/purple@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/square/purple@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/square/red.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/square/red.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/square/red.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/square/red.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/square/red@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/square/red@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/square/square.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/square/square.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/square/square.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/square/square.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/square/square@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/square/square@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/square/yellow.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/square/yellow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/square/yellow.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/square/yellow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/skins/square/yellow@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/skins/square/yellow@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/subpage/childTable.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/subpage/childTable.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/css/subpage/newStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/css/subpage/newStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/21.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/21.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/Code.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/Code.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/YGIMG.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/YGIMG.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/bag.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/bag.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/btn_l.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/btn_l.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/btn_r.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/btn_r.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/caidan-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/caidan-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/cdBG.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/cdBG.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/check.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/check.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/close.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/close.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/db.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/db.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/dnldata.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/dnldata.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/duigou.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/duigou.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/dyPPT.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/dyPPT.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/emailIMG.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/emailIMG.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/emailMN.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/emailMN.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/foot.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/foot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/h_close.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/h_close.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/hbtn_l.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/hbtn_l.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/hbtn_r - 000.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/hbtn_r - 000.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/hbtn_r.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/hbtn_r.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/header_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/header_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/heder-logo01.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/heder-logo01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/hzPPT.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/hzPPT.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/i-top_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/i-top_03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/jiantou-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/jiantou-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/logo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/logo2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/logo3.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/logo3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/mess_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/mess_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/mess_icon1.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/mess_icon1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/navright_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/navright_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/new-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/new-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/passicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/passicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/pptDate.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/pptDate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/pptIMG.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/pptIMG.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/pushman.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/pushman.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/rightTop-btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/rightTop-btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/rl.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/rl.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/rl2.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/rl2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/sandaogang.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/sandaogang.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/sj.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/sj.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/sq_close.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/sq_close.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/sq_close1.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/sq_close1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/table-tkBG.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/table-tkBG.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/table-zheBG.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/table-zheBG.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/tc.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/tc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/tc01.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/tc01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/tc02.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/tc02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/tc03.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/tc03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/tc04.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/tc04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/tc05.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/tc05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/tc216.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/tc216.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/tc2161.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/tc2161.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/tc217.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/tc217.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/tc218.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/tc218.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/useicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/useicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/x_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/x_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/images/zshLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/images/zshLogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/bootstrap-select.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/bootstrap-select.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/bootstrap-select.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/bootstrap-select.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/bootstrap-select.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/bootstrap-select.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/bootstrap-select.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/bootstrap-select.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/common/echarts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/common/echarts.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/common/echarts.min1.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/common/echarts.min1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/common/jQgrit.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/common/jQgrit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/common/jquery-1.11.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/common/jquery-1.11.0.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/common/jquery-1.7.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/common/jquery-1.7.2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/common/jquery-1.9.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/common/jquery-1.9.0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/common/jquery-3.4.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/common/jquery-3.4.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/common/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/common/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/common/jquery.slimscroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/common/jquery.slimscroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/common/jquery.slimscroll.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/common/jquery.slimscroll.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/common/zh.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/common/zh.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-am_ET.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-am_ET.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-am_ET.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-am_ET.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-am_ET.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-am_ET.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-ar_AR.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-ar_AR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-ar_AR.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-ar_AR.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-ar_AR.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-ar_AR.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-bg_BG.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-bg_BG.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-bg_BG.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-bg_BG.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-bg_BG.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-bg_BG.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-cs_CZ.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-cs_CZ.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-cs_CZ.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-cs_CZ.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-cs_CZ.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-cs_CZ.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-da_DK.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-da_DK.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-da_DK.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-da_DK.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-da_DK.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-da_DK.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-de_DE.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-de_DE.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-de_DE.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-de_DE.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-de_DE.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-de_DE.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-en_US.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-en_US.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-en_US.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-en_US.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-en_US.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-en_US.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-es_CL.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-es_CL.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-es_CL.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-es_CL.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-es_CL.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-es_CL.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-es_ES.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-es_ES.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-es_ES.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-es_ES.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-es_ES.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-es_ES.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-et_EE.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-et_EE.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-et_EE.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-et_EE.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-et_EE.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-et_EE.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-eu.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-eu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-eu.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-eu.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-eu.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-eu.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-fa_IR.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-fa_IR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-fa_IR.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-fa_IR.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-fa_IR.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-fa_IR.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-fi_FI.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-fi_FI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-fi_FI.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-fi_FI.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-fi_FI.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-fi_FI.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-fr_FR.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-fr_FR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-fr_FR.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-fr_FR.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-fr_FR.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-fr_FR.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-hr_HR.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-hr_HR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-hr_HR.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-hr_HR.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-hr_HR.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-hr_HR.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-hu_HU.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-hu_HU.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-hu_HU.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-hu_HU.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-hu_HU.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-hu_HU.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-id_ID.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-id_ID.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-id_ID.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-id_ID.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-id_ID.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-id_ID.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-it_IT.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-it_IT.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-it_IT.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-it_IT.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-it_IT.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-it_IT.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-ja_JP.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-ja_JP.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-ja_JP.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-ja_JP.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-ja_JP.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-ja_JP.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-kh_KM.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-kh_KM.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-kh_KM.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-kh_KM.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-kh_KM.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-kh_KM.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-ko_KR.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-ko_KR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-ko_KR.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-ko_KR.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-ko_KR.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-ko_KR.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-lt_LT.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-lt_LT.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-lt_LT.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-lt_LT.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-lt_LT.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-lt_LT.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-lv_LV.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-lv_LV.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-lv_LV.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-lv_LV.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-lv_LV.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-lv_LV.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-nb_NO.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-nb_NO.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-nb_NO.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-nb_NO.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-nb_NO.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-nb_NO.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-nl_NL.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-nl_NL.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-nl_NL.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-nl_NL.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-nl_NL.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-nl_NL.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-pl_PL.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-pl_PL.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-pl_PL.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-pl_PL.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-pl_PL.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-pl_PL.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-pt_BR.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-pt_BR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-pt_BR.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-pt_BR.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-pt_BR.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-pt_BR.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-pt_PT.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-pt_PT.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-pt_PT.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-pt_PT.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-pt_PT.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-pt_PT.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-ro_RO.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-ro_RO.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-ro_RO.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-ro_RO.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-ro_RO.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-ro_RO.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-ru_RU.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-ru_RU.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-ru_RU.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-ru_RU.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-ru_RU.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-ru_RU.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-sk_SK.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-sk_SK.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-sk_SK.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-sk_SK.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-sk_SK.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-sk_SK.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-sl_SI.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-sl_SI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-sl_SI.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-sl_SI.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-sl_SI.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-sl_SI.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-sv_SE.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-sv_SE.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-sv_SE.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-sv_SE.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-sv_SE.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-sv_SE.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-tr_TR.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-tr_TR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-tr_TR.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-tr_TR.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-tr_TR.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-tr_TR.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-ua_UA.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-ua_UA.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-ua_UA.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-ua_UA.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-ua_UA.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-ua_UA.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-vi_VN.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-vi_VN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-vi_VN.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-vi_VN.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-vi_VN.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-vi_VN.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-zh_CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-zh_CN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-zh_CN.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-zh_CN.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-zh_CN.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-zh_CN.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-zh_TW.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-zh_TW.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-zh_TW.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-zh_TW.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/i18n/defaults-zh_TW.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/i18n/defaults-zh_TW.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/icheck.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/icheck.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/mainpage/jquery.SuperSlide.2.1.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/mainpage/jquery.SuperSlide.2.1.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/subpage/echarts_compare.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/subpage/echarts_compare.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/subpage/echarts_modify.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/subpage/echarts_modify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/static/js/subpage/table_export2excle.js" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/static/js/subpage/table_export2excle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/templates/account/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/templates/account/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/templates/account/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/templates/account/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/templates/account/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/templates/account/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/templates/errorPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/templates/errorPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/templates/manager/accountList.html" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/templates/manager/accountList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/templates/manager/permissionList.html" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/templates/manager/permissionList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/templates/manager/permissionModify.html" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/templates/manager/permissionModify.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/templates/manager/roleList.html" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/templates/manager/roleList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userMG/src/main/resources/templates/manager/roleModify.html" beforeDir="false" afterPath="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/classes/templates/manager/roleModify.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/userMG/target/" />
+    <ignored path="$PROJECT_DIR$/taobaoMG-service-api/target/" />
+    <ignored path="$PROJECT_DIR$/taobaoMG-service/target/" />
+    <ignored path="$PROJECT_DIR$/taobaoMG-service/tabao-userMG/target/" />
+    <ignored path="$PROJECT_DIR$/taobaoMG-service/taobao-user/target/" />
+    <ignored path="$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/taobaoMG-service/taobao-user/src/main/java/com/huanjava/taobao/user/UserApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>com.user.</find>
+      <find>com.huanjava.taobaoMG.userMG.entity</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/userMG/src/main/java/user/service/impl/AccountService.java" />
+        <option value="$PROJECT_DIR$/userMG/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/userMG/pom.xml" />
+        <option value="$PROJECT_DIR$/taobaoMG-service/userMG/pom.xml" />
+        <option value="$PROJECT_DIR$/taobaoMG-service/tabao-userMG/pom.xml" />
+        <option value="$PROJECT_DIR$/taobaoMG-service/tabao-userMG/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/taobaoMG-service/tabao-userMG/src/main/java/com/huanjava/taobaoMG/userMG/StartUser.java" />
+        <option value="$PROJECT_DIR$/taobaoMG-service/tabao-userMG/src/main/java/com/huanjava/taobaoMG/userMG/startUserMG.java" />
+        <option value="$PROJECT_DIR$/taobaoMG-service/tabao-userMG/src/main/java/com/huanjava/taobaoMG/userMG/UserMGApplication.java" />
+        <option value="$PROJECT_DIR$/taobaoMG-service/tabao-userMG/src/main/java/com/huanjava/taobao/user/UserMGApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/taobaoMG-service/pom.xml" />
+        <option value="$PROJECT_DIR$/taobaoMG-service/taobao-user/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/taobaoMG-service-api/pom.xml" />
+        <option value="$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/src/main/java/java/com/huanjava/taobao/user/entity/Result.java" />
+        <option value="$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/pom.xml" />
+        <option value="$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/src/main/java/java/com/huanjava/taobao/user/controlelr/AccountController.java" />
+        <option value="$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/src/main/java/java/com/huanjava/taobao/user/api/AccountController.java" />
+        <option value="$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/src/main/java/com/huanjava/taobao/user/api/AccountController.java" />
+        <option value="$PROJECT_DIR$/taobaoMG-service/taobao-user/pom.xml" />
+        <option value="$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/src/main/java/com/huanjava/taobao/user/api/ManagerApi.java" />
+        <option value="$PROJECT_DIR$/taobaoMG-service/taobao-user/src/main/java/com/huanjava/taobao/user/controlelr/AccountController.java" />
+        <option value="$PROJECT_DIR$/taobaoMG-service/taobao-user/src/main/java/com/huanjava/taobao/user/controlelr/MainController.java" />
+        <option value="$PROJECT_DIR$/taobaoMG-service/taobao-user/src/main/java/com/huanjava/taobao/user/controlelr/ManagerController.java" />
+        <option value="$PROJECT_DIR$/taobaoMG-service/taobao-user/src/main/java/com/huanjava/taobao/user/controlelr/ManagerRestController.java" />
+        <option value="$PROJECT_DIR$/taobaoMG-service/taobao-user/src/main/java/com/huanjava/taobao/user/controlelr/RoleRestController.java" />
+        <option value="$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/src/main/java/com/huanjava/taobao/user/api/AccountApi.java" />
+        <option value="$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/src/main/java/com/huanjava/taobao/user/api/MainApi.java" />
+        <option value="$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/src/main/java/com/huanjava/taobao/user/api/ManagerRestApi.java" />
+        <option value="$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/src/main/java/com/huanjava/taobao/user/api/RoleRestApi.java" />
+        <option value="$PROJECT_DIR$/taobaoMG-service/taobao-user/src/main/java/com/huanjava/taobao/user/Filter/AccountFilter.java" />
+        <option value="$PROJECT_DIR$/taobaoMG-service/taobao-user/src/main/java/com/huanjava/taobao/user/UserApplication.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/worksoftware/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="D:\worksoftware\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="huanjava-taobaoMG" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="huanjava-taobaoMG" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="huanjava-taobaoMG" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-4" />
+    <option name="y" value="92" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="taobaoMG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taobaoMG" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taobaoMG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taobaoMG" type="462c0819:PsiDirectoryNode" />
+              <item name="taobaoMG-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taobaoMG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taobaoMG" type="462c0819:PsiDirectoryNode" />
+              <item name="taobaoMG-service" type="462c0819:PsiDirectoryNode" />
+              <item name="taobao-user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taobaoMG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taobaoMG" type="462c0819:PsiDirectoryNode" />
+              <item name="taobaoMG-service" type="462c0819:PsiDirectoryNode" />
+              <item name="taobao-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taobaoMG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taobaoMG" type="462c0819:PsiDirectoryNode" />
+              <item name="taobaoMG-service" type="462c0819:PsiDirectoryNode" />
+              <item name="taobao-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taobaoMG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taobaoMG" type="462c0819:PsiDirectoryNode" />
+              <item name="taobaoMG-service" type="462c0819:PsiDirectoryNode" />
+              <item name="taobao-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taobaoMG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taobaoMG" type="462c0819:PsiDirectoryNode" />
+              <item name="taobaoMG-service" type="462c0819:PsiDirectoryNode" />
+              <item name="taobao-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taobaoMG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taobaoMG" type="462c0819:PsiDirectoryNode" />
+              <item name="taobaoMG-service-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/src/main/java" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workproject\taobaoMG\taobaoMG-service-api\taobao-user-api\src\main\java" />
+      <recent name="E:\workproject\taobaoMG\taobaoMG-service\taobao-user\src" />
+      <recent name="E:\workproject\taobaoMG\userMG\src\main" />
+      <recent name="E:\workproject\taobaoMG\userMG\src\main\resources" />
+      <recent name="E:\workproject\taobaoMG\userMG\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workproject\taobaoMG\taobaoMG-service" />
+      <recent name="E:\workproject\taobaoMG\userMG\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.UserApplication">
+    <configuration name="StartUser" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="userMG" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.user.StartUser" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartUser" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="userMG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huanjava.taobaoMG.userMG.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huanjava.taobaoMG.userMG.StartUser" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="taobao-user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huanjava.taobao.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huanjava.taobao.user.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMGApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="userMG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huanjava.taobaoMG.userMG.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huanjava.taobaoMG.userMG.UserMGApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.UserApplication" />
+        <item itemvalue="Spring Boot.UserMGApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="553fce99-7d17-4145-8e13-fae05b4eda17" name="Default Changelist" comment="" />
+      <created>1600353797454</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600353797454</updated>
+      <workItem from="1600353804531" duration="1053000" />
+      <workItem from="1600354945824" duration="588000" />
+      <workItem from="1600672689798" duration="1551000" />
+      <workItem from="1600755948679" duration="9895000" />
+      <workItem from="1600770343982" duration="140000" />
+      <workItem from="1600772498033" duration="1446000" />
+    </task>
+    <task id="LOCAL-00001" summary="taobaoMG项目">
+      <created>1600354512885</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600354512885</updated>
+    </task>
+    <task id="LOCAL-00002" summary="taobaoMG项目">
+      <created>1600355352624</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600355352624</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1. 修复properties中的数据库配置&#10;2. 修复mybatis的自动补全">
+      <created>1600672878787</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600672878787</updated>
+    </task>
+    <task id="LOCAL-00004" summary="修复properties文件">
+      <created>1600672979953</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600672979953</updated>
+    </task>
+    <task id="LOCAL-00005" summary="taobaoMG项目结构更换">
+      <created>1600764512787</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600764512787</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="14673000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8131241" visible="true" weight="0.21173333" />
+      <window_info id="Structure" order="1" sideWeight="0.1868759" side_tool="true" visible="true" weight="0.21173333" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.7575419" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Sequence" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Tail" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32960895" />
+      <window_info anchor="bottom" id="JRebel Executor" order="16" />
+      <window_info anchor="bottom" id="JRebel Console" order="17" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="18" weight="0.19866072" />
+      <window_info anchor="bottom" id="Run Dashboard" order="19" visible="true" weight="0.21675977" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.176" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="leetcode" order="8" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="RestServices" order="11" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="taobaoMG项目" />
+    <MESSAGE value="1. 修复properties中的数据库配置&#10;2. 修复mybatis的自动补全" />
+    <MESSAGE value="修复properties文件" />
+    <MESSAGE value="taobaoMG项目结构更换" />
+    <option name="LAST_COMMIT_MESSAGE" value="taobaoMG项目结构更换" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service/tabao-userMG/src/main/resources/static/js/i18n/defaults-eu.js" />
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service/tabao-userMG/src/main/java/com/huanjava/taobao/user/entity/Code.java" />
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service/tabao-userMG/src/main/java/com/huanjava/taobao/user/service/impl/RoleService.java" />
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service/tabao-userMG/src/main/java/com/huanjava/taobaoMG/userMG/StartUser.java" />
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service/tabao-userMG/src/main/java/com/huanjava/taobao/user/controlelr/RoleRestController.java" />
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service/tabao-userMG/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service/tabao-userMG/src/main/resources/application-dev.properties" />
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service/tabao-userMG/src/main/resources/application-prod.properties" />
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service/tabao-userMG/src/main/resources/application-test.properties" />
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service/tabao-userMG/src/main/resources/rebel.xml" />
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service/tabao-userMG/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service/tabao-userMG/src/main/java/com/huanjava/taobao/user/UserMGApplication.java" />
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service/tabao-userMG/src/main/resources/application.yaml" />
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service/tabao-userMG/src/main/java/com/huanjava/taobao/user/Filter/AccountFilter.java" />
+    <entry file="jar://E:/maven-entrepot/org/springframework/boot/spring-boot/2.3.2.RELEASE/spring-boot-2.3.2.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="1224" column="49" selection-start-line="1224" selection-start-column="49" selection-end-line="1224" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service/taobao-user/src/main/java/com/huanjava/taobao/user/entity/Code.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service/taobao-user/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service/taobao-user/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service/taobao-user/src/main/resources/application-prod.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service/taobao-user/src/main/resources/application-test.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service/taobao-user/src/main/resources/rebel.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service/taobao-user/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="60" lean-forward="true" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/src/main/java/user/entity/Code.java" />
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/src/main/java/com/huanjava/taobao/user/entity/Menu.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/src/main/java/java/com/huanjava/taobao/user/UserApplication.java" />
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/src/main/java/com/huanjava/taobao/user/entity/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/src/main/java/com/huanjava/taobao/user/entity/Permission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/src/main/java/com/huanjava/taobao/user/entity/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-841">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/src/main/java/com/huanjava/taobao/user/entity/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/src/main/java/com/huanjava/taobao/user/entity/Code.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/src/main/java/com/huanjava/taobao/user/entity/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/src/main/java/com/huanjava/taobao/user/entity/ResultCodeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service/taobao-user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="62" column="39" selection-start-line="62" selection-start-column="39" selection-end-line="62" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service/taobao-user/src/main/java/com/huanjava/taobao/user/controlelr/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service/taobao-user/src/main/java/com/huanjava/taobao/user/controlelr/ManagerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service/taobao-user/src/main/java/com/huanjava/taobao/user/controlelr/ManagerRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/src/main/java/com/huanjava/taobao/user/api/AccountApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/src/main/java/com/huanjava/taobao/user/api/MainApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/src/main/java/com/huanjava/taobao/user/api/ManagerApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1479">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/src/main/java/com/huanjava/taobao/user/api/ManagerRestApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service-api/taobao-user-api/src/main/java/com/huanjava/taobao/user/api/RoleRestApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service/taobao-user/src/main/java/com/huanjava/taobao/user/service/impl/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service/taobao-user/src/main/java/com/huanjava/taobao/user/controlelr/RoleRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1131">
+          <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service/taobao-user/src/main/java/com/huanjava/taobao/user/Filter/AccountFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service/taobao-user/src/main/java/com/huanjava/taobao/user/controlelr/AccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="109" column="7" selection-start-line="109" selection-start-column="7" selection-end-line="109" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/worksoftware/jdk1.8.0_191/src.zip!/java/time/LocalDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="220" column="28" selection-start-line="220" selection-start-column="28" selection-end-line="220" selection-end-column="28" />
+          <folding>
+            <element signature="e#7027#7028#0" expanded="true" />
+            <element signature="e#7080#7081#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobaoMG-service/taobao-user/src/main/java/com/huanjava/taobao/user/UserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>jdk1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

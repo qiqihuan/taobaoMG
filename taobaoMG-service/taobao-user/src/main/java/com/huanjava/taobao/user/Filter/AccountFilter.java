@@ -25,7 +25,7 @@ public class AccountFilter implements Filter {
 
     // 不需要登录的uri
     private final String[] IGNORE_URI =
-            {"/index", "/login", "/js", "/css", "/account/login", "/favicon","/images","/account/validataAccount","/errorPage"};
+            {"/index","/doc.html", "/login", "/js", "/css", "/account/login", "/favicon","/images","/account/validataAccount","/errorPage"};
 
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
