@@ -38,6 +38,7 @@
     <modules>
         <module>taobaoMG-service-api</module>
         <module>taobaoMG-service</module>
+        <module>taobaoMG-dubbo</module>
     </modules>
 
     <!-- 全局依赖 -->
